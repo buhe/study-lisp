@@ -10,6 +10,6 @@ ros run
 (ql:quickload "hello")
 
 (asdf:load-system "hello")
-(hello:hello1 "bugu123")
+(hello:start)
 ```
 
