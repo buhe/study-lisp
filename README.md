@@ -1,11 +1,12 @@
 
 Project must be in ~/.roswell/local-projects/
 ```
-(asdf:load-system "hello")
+ros run
 ```
 
 ### At REPL
 ```
-(hello:hello1 "bu")
+(asdf:load-system "hello")
+(hello:hello1 "bugu")
 ```
 
