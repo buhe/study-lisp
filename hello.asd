@@ -3,4 +3,5 @@
     :version "0.0.1"
     :author "Michael Anckaert <michael.anckaert@sinax.be"
     :license "MIT"
-    :components ((:file "hello")))
+    :depends-on (#:sdl2)
+    :components ((:file "hello2")))

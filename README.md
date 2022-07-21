@@ -6,7 +6,10 @@ ros run
 
 ### At REPL
 ```
+# install depend-on
+(ql:quickload "hello")
+
 (asdf:load-system "hello")
-(hello:hello1 "bugu")
+(hello:hello1 "bugu123")
 ```
 
