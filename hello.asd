@@ -3,5 +3,5 @@
     :version "0.0.1"
     :author "Michael Anckaert <michael.anckaert@sinax.be"
     :license "MIT"
-    :depends-on (#:cl-tui)
+    :depends-on (#:cl-tui :jsown :dexador)
     :components ((:file "hello2")))

@@ -13,3 +13,12 @@ ros run
 (hello:start)
 ```
 
+### Test http
+```
+(dex:get "http://baidu.com")
+```
+
+### Test JSON
+```
+(jsown:parse "{\"foo\":\"bar\",\"baz\":100.25}")
+```
