@@ -27,5 +27,6 @@ ros run
 
 ### Emacs + slime
 
-#### quicklisp
-https://github.com/quicklisp/quicklisp-slime-helper
+#### reinstall quicklisp at ~/.quicklisp
+- https://lisp-lang.org/learn/getting-started/
+- Project must be in ~/.quicklisp/local-projects
