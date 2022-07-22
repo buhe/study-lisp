@@ -24,3 +24,8 @@ ros run
 ```
 (jsown:parse "{\"foo\":\"bar\",\"baz\":100.25}")
 ```
+
+### Emacs + slime
+
+#### quicklisp
+https://github.com/quicklisp/quicklisp-slime-helper
