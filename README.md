@@ -15,9 +15,11 @@ ros run
 
 ### Test http
 ```
-(dex:get "http://baidu.com")
-```
+(drakma:http-request "https://baidu.com")
 
+(drakma:http-request "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty")
+(flexi-streams:octets-to-string *)
+```
 ### Test JSON
 ```
 (jsown:parse "{\"foo\":\"bar\",\"baz\":100.25}")
